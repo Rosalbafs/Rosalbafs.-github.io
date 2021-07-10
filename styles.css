@@ -1,0 +1,202 @@
+header {
+    align-content: center;
+    font-family: 'Montserrat', Gill Sans Extrabold;
+    background-color: #30db0e;
+    text-size-adjust: 40px;
+    text-align: center;
+    display: list-item;
+        }
+
+.logo {
+    width: 400px;
+}        
+
+
+body {
+    font-family: 'Montserrat', Gill Sans Extrabold;
+}
+
+#main {
+    background-color: #30db0e;
+    
+    }
+
+.main-name h1 {
+    text-align: center;
+    font-size: 4em;
+    
+}
+
+.main-section h2 {
+    text-align: center;
+    font-size: 2.2em;
+}
+
+.main-section article p {
+    padding: 1 30px;
+}
+
+#controller {
+    background-color: rgb(31, 28, 28);
+    padding: 7px 14px;
+}
+
+.controller-text h3 {
+    text-align: center;
+    color: aliceblue;
+}
+
+.controller-text p {
+    text-align: center;
+    color: aliceblue;
+}
+
+.controller-buttons {
+    text-align: right;
+    color: aliceblue;
+}
+
+#description {
+    margin-top: 30px;
+    }
+
+.description-img {
+    display: flex;
+    justify-content: center;
+    }
+
+.description-text h4 {
+    text-align: center;
+    }
+
+.description-text p {
+    padding: 0 2%;
+    }
+
+.description-list h4 {
+    text-align: center;
+}
+
+.description-list ul {
+    list-style-type: none;
+    padding: 0 4%;
+}
+
+.description-list ul li {
+    padding: 2%;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+@media (min-width: 676px) {
+    /* Estos se aplican a partir de 576px */
+    .quote {
+        color:rgb(255, 255, 255);
+    }
+    #main {
+        display: flex;
+        align-items: center;
+    }
+
+    .main-name {
+        width: 60%;
+        color: aliceblue;
+    }
+
+    .main-section {
+        width: 30%;
+        padding: 4% 2%;
+        text-align: left;
+    }
+
+    .main-section h2 {
+        text-align: left;
+        font-size: 1.5em;
+        color: aliceblue;
+        }
+
+    .main-section article p {
+        padding: 0;
+        color: aliceblue;
+
+}
+}
+
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... } */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #main h1 {
+        color: rgb(255, 255, 255);
+    }
+} 
+
+/*  Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }*/
+
+/*  X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
+ul {
+    background-color: rgba(45, 255, 73, 0.986);
+    padding-left: 2;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px));
+    gap: 60px;
+}
+
+.description-text{
+    font-size: 28px;
+}
+
+
+.description-img-flores {
+    text-size-adjust: 42px; color: black; text-decoration: teal;text-size-adjust: 65px;
+    grid-template-rows:subgrid;
+    text-align: center;
+    background-color: hsl(113, 88%, 46%);
+    font-size: 26px;
+    border-block-color: red;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.description-list {
+    border: 2px;
+}
+
+.description-img-rosas{
+    display: flex;
+    flex-direction: column;
+}
+
+.description-img-alcatraces{
+    display: flex;
+    flex-direction: column;
+}
+
+.description-img-tulipanes{
+    display: flex;
+    flex-direction: column;
+}
+
+.description-img-margaritas{
+    display: flex;
+    flex-direction: column;
+}
+
+.description-img-crisantemos{
+    display: flex;
+    flex-direction: column;
+}
+
+.description-img-girasoles{
+    display: flex;
+    flex-direction: column;
+}
+
+.description-img-jazmines{
+    display: flex;
+    flex-direction: column;
+}
